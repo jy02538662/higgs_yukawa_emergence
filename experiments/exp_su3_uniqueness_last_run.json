@@ -1,0 +1,35 @@
+{
+  "direction1_Gamma_K_independent": {
+    "Gamma2_equals_I": true,
+    "Gamma_anticommute_D_err": 0.0,
+    "D_is_real_so_K_commutes_D": true,
+    "Gamma_real_so_GammaK_eq_KGamma": true,
+    "conclusion": "Γ（酉对合，{Γ,D}=0）与 K（反酉对合，[K,D]=0）独立，生成 Z₂×Z₂ = {1, Γ, K, ΓK}。至少两个 Z₂。"
+  },
+  "direction2_spectrum": {
+    "spectrum_pm_E_symmetric": true,
+    "n_positive": 6,
+    "n_negative": 6,
+    "note": "谱 ±E 对称 ⟹ 手征对合存在（Γ 是一例）"
+  },
+  "direction2_third_Z2": {
+    "emergent_Tprime": "T'=JK，T'²=−1，不是对合（Z₂ 要求平方=+1），故不是第三个 Z₂",
+    "degeneracy_structure": "N=16 重数分布 {-2.828:2, -2:4, 0:4, 2:4, 2.828:2}，简并来自格点平移（4 重），非新 Z₂",
+    "real_orthogonal_involutions": "与 D 对易的连续对称来自简并（格点平移），里面的对合是「平移对合」，不是新独立 Z₂ 结构",
+    "candidate_third_Z2": "离散对合只有 Γ（手征）和 K（共轭）两个，没有找到「本质新的」第三个独立 Z₂",
+    "honest_note": "「没找到第三个」≠「不存在第三个」，这是数值遍历的非证明性"
+  },
+  "direction3_open_problem": {
+    "question": "为什么恰好两个 Z₂（不是 1 个或 3 个）",
+    "status": "开放问题（分类问题）",
+    "direction1_result": "Γ、K 独立（至少两个 Z₂），已证",
+    "direction2_result": "没找到第三个（数值遍历，非证明）",
+    "direction3_result": "「恰好两个」未严格证明——需从公设分类所有可能的 Z₂",
+    "recommendation": "不硬补。诚实标注「部分解决 + 开放问题」，若攻方向 3 需数学界合作（分类问题），或写成开放问题发给数学家"
+  },
+  "conclusion": {
+    "partial_solution": "Γ、K 独立（已证）+ 没找到第三个（数值）+ 恰好两个未证（开放）",
+    "impact_on_gate3": "「颜色⟹手征」能否升级成真预言，取决于方向 3（恰好两个 Z₂）",
+    "verdict": "su(3) 来源唯一性 = 部分解决 + 开放问题，不假装补完"
+  }
+}

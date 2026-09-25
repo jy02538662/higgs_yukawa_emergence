@@ -1,0 +1,35 @@
+{
+  "A_HF_dimension": {
+    "H_L_dim": 8,
+    "H_R_dim": 7,
+    "particle_dim": 15,
+    "total_with_antiparticle": 30,
+    "note": "一代 15 粒子 + 15 反粒子 = 30 维（含反粒子），三代 = 90 维"
+  },
+  "B_J_squared": {
+    "J2_equals_I": true,
+    "note": "J² = I（KO 维数 6，ε=1），交换粒子↔反粒子两次回到原态"
+  },
+  "C_antilinear_J": {
+    "J_action": "J(v) = J_swap · conj(v)，J_swap 交换粒子↔反粒子块",
+    "KO_dimension": "标准模型 KO 维数 6：J²=1, JD=DJ, Jγ=-γJ",
+    "note": "J 是电荷共轭：把左手费米子映到右手反费米子（粒子的反粒子）"
+  },
+  "D_axioms": {
+    "done": [
+      "J²=1",
+      "J 交换粒子反粒子（反线性）",
+      "H_F 维度 30/90"
+    ],
+    "connes_full_requires": [
+      "order-zero [a,JbJ⁻¹]=0",
+      "order-one [[D,a],JbJ⁻¹]=0",
+      "JD=DJ, Jγ=-γJ（γ 手征）"
+    ],
+    "note": "本实验做 J 的核心结构（反线性 + J² + 粒子反粒子交换），完整的 KO 维数 6 公理（order-zero/one、γ）是 Connes 的完整版，属「补完整性」的后续，不碰红线"
+  },
+  "E_conclusion": {
+    "J_complete": "实结构 J = 电荷共轭，反线性，交换粒子↔反粒子，J²=1",
+    "next": "exp7 内涨落 D_F → D_F + A + JAJ⁻¹（规范场 + 希格斯场）"
+  }
+}

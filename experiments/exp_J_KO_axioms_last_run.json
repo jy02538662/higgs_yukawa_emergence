@@ -1,0 +1,29 @@
+{
+  "A_chirality_gamma": {
+    "gamma2_equals_I": true,
+    "gamma_D_anticommute_err": 0.0,
+    "note": "γ²=1，γD_F=−D_Fγ（手征分次：左手+1，右手−1）"
+  },
+  "B_JD_eq_DJ": {
+    "err": 0.0,
+    "note": "JD_F = D_F J（KO 维数 6，ε'=+1）"
+  },
+  "C_Jgamma_eq_minus_gammaJ": {
+    "err": 0.0,
+    "note": "Jγ = −γJ（KO 维数 6，ε''=−1），因 J 同时交换粒子↔反粒子和左↔右"
+  },
+  "D_order_zero": {
+    "err": 0.0,
+    "note": "[a, JbJ⁻¹]=0（order-zero：左手代数与右手代数对易）"
+  },
+  "E_order_one": {
+    "err": 3.0,
+    "note": "[[D_F, a], JbJ⁻¹]=0 是「约束 M 形式」的非平凡条件（对应希格斯场的 order-one 约束），不是自动成立——[D_F,a] 的非零块在左右手混合处（范数 ~6.4）"
+  },
+  "F_complete_KO_6": {
+    "symbols": "J²=+1, JD=+DJ, Jγ=−γJ",
+    "key_finding": "J 必须同时交换粒子↔反粒子和左↔右 ⟹ 要求 H_L=H_R 等维 ⟹ 标准模型必须含右手中微子",
+    "order_one_status": "order-zero 自动成立；order-one 是约束 M 的非平凡条件（希格斯场约束），完整标准模型里 M 需满足它，本实验的简单 M 未强制",
+    "verdict": "KO 维数 6 公理：γ + JD=DJ + Jγ=−γJ + order-zero 全部满足（err=0）；order-one 是约束条件（非平凡，诚实标注）"
+  }
+}

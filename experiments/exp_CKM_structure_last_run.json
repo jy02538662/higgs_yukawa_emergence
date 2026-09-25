@@ -1,0 +1,29 @@
+{
+  "A_three_generation_structure": {
+    "M_total_shape": [
+      24,
+      24
+    ],
+    "generation_blocks": "3×3 代矩阵，每块 8×8（含右手中微子的对称版）",
+    "note": "代间混合 = 非对角代块（M_ij, i≠j）非零"
+  },
+  "B_CKM_dof": {
+    "general_3x3_complex_dof": 18,
+    "up_and_down": 36,
+    "masses": 6,
+    "CKM_parameters": 4,
+    "CKM_angles": 3,
+    "CP_phase": 1,
+    "note": "标准结果：CKM = 3 混合角 + 1 CP 相位（不碰数值，只列自由度）"
+  },
+  "C_framework_constraint": {
+    "su3_S3_acts_on": "颜色三重态 3（S₃ = SU(3) Weyl 群，作用在颜色上）",
+    "generation_is": "独立自由度，与颜色无关（S₃ 不作用于代）",
+    "conclusion": "框架的 su(3)=S₃ 来源是「颜色对称」的来源，不约束「代」的混合。⟹ 代间混合（CKM/PMNS）是标准的 3×3 质量矩阵，无框架独有约束。⟹ CKM 结构 = 标准结果（与 Connes 标准模型一致），不是独有预言。"
+  },
+  "D_verdict": {
+    "CKM_structure": "标准结果，无框架独有约束",
+    "reason": "su(3)=S₃ 只作用颜色，不作用代；框架没有「代对称」来约束代间混合",
+    "honest_note": "除非框架引入「代的对称性」（如 S₃ 也作用代），否则 CKM 全允许，是标准模型的标准结果"
+  }
+}

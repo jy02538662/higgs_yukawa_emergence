@@ -1,0 +1,42 @@
+{
+  "A_inner_fluctuation": {
+    "D_F_shape": [
+      15,
+      15
+    ],
+    "phi_block_shape": [
+      8,
+      7
+    ],
+    "phi_proportional_to_M": true,
+    "note": "内涨落 [D_F, a_L] 的左右手混合块 = 希格斯场 φ，正比于 -M（Yukawa 矩阵）"
+  },
+  "B_gauge_group": {
+    "algebra_A": "C ⊕ H ⊕ M₃(C)",
+    "gauge_group": "U(1) ⊕ SU(2) ⊕ SU(3)",
+    "correspondence": {
+      "U(1)": "超荷（C 块）",
+      "SU(2)": "弱同位旋（H 块）",
+      "SU(3)": "颜色（M₃ 块）"
+    },
+    "note": "内涨落对角块 = 规范场，规范群 = 代数 A 的幺正元 U(1)×SU(2)×SU(3)"
+  },
+  "C_a4_higgs_potential": {
+    "Tr_D_F4": 584.0,
+    "higgs_potential": "λ(φ²-v²)² 的 φ⁴ 项来自 a₄ 谱作用量 Tr(D_F⁴)（Connes 标准）",
+    "note": "希格斯势四次形式 λφ⁴，λ 是自耦合（符号，不给数值）"
+  },
+  "D_compare_SM": {
+    "hypercharge_assignment": "L:Y=-1, e_R:Y=-2, Q:Y=1/3, u_R:Y=4/3, d_R:Y=-2/3（标准）",
+    "weak_isospin": "L,Q 是 SU(2) 二重态；e_R,u_R,d_R 是单态（标准）",
+    "color": "Q,u_R,d_R 是 SU(3) 三重态；L,e_R 无色（标准）",
+    "matches": true,
+    "note": "框架的 H_F 表示（三代、3=2⊕1、左右手）与标准模型量子数对得上"
+  },
+  "E_conclusion": {
+    "completeness": "6 步完整走通：H_F(30/90) → M(块结构) → J(电荷共轭) → 内涨落(规范场 U(1)×SU(2)×SU(3) + 希格斯 φ∝M) → a₄(λφ⁴) → 对比标准模型(量子数对上)。",
+    "what_is_standard": "希格斯势 + Yukawa 形式 = Connes 标准（可观测形式不独有）",
+    "what_is_unique": "框架独有性 = su(3)=S₃ 来源（为什么是 C⊕H⊕M₃），在「来源」层，不改变可观测形式",
+    "completeness_value": "补 TOE 完整度 + 自洽性验证（框架涌现结构能装进 Connes 框架）+ 来源唯一性落地"
+  }
+}

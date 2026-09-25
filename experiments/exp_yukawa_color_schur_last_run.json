@@ -1,0 +1,17 @@
+{
+  "A_centralizer_su3": {
+    "dim": 1,
+    "expect": 1,
+    "verdict": "与完整 su(3) 对易的矩阵空间 = 1 维（只有 c·I₃，Schur 引理，3 是不可约表示）"
+  },
+  "B_centralizer_su2": {
+    "dim": 2,
+    "expect": 2,
+    "verdict": "与 su(2) 子代数对易的矩阵空间 = 2 维（diag(a,a,b)：前两色平权，第三色独立）"
+  },
+  "C_conclusion": {
+    "schur_lemma": "完整 SU(3) ⟹ Yukawa 对颜色平庸（m·I₃，三色平权）。3=2⊕1 是限制到 su(2) 子代数的分支规则，不破坏完整 SU(3)。",
+    "third_color_different_requires": "「第三种颜色 Yukawa 耦合不同」⟺ 完整 SU(3) 破缺到 SU(2) 子代数。但预印本 1.9 用 Serre 构造给出完整连续 su(3)（不是只有 su(2)）。所以这个独有预言候选在「完整 SU(3) 活着的框架」里不成立。",
+    "honest_verdict": "「第三种颜色 Yukawa 耦合不同」这个候选 = v9 已标的「2⊕1 结构印记」（标准分支规则，任何 SU(3) 理论都有），不是独有预言。除非框架声称「颜色 SU(3) 在低能破缺到 SU(2)」，但那是另一个大胆的主张（对 QCD 的偏离），需要独立证据，不能从 3=2⊕1 分支规则推出。"
+  }
+}

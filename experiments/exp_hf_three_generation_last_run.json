@@ -1,0 +1,25 @@
+{
+  "A_HF_dimension": {
+    "dim_per_generation": 15,
+    "dim_three_generations_weyl": 45,
+    "dim_HF_with_antiparticles": 90,
+    "note": "每代 15 Weyl 费米子，三代 45，含反粒子 90（标准 Connes 维度）"
+  },
+  "B_color_3_2oplus1": {
+    "Q_dim_original": 6,
+    "Q_decomposed_as_22oplus21": [
+      4,
+      2
+    ],
+    "dim_consistent": true,
+    "note": "Q:(2,3) = (2,2)⊕(2,1) = 弱2×色旋量2 ⊕ 弱2×色相位1，维度 4+2=6=2×3 ✓"
+  },
+  "C_unique_structure": {
+    "statement": "框架独有：色三重态 3 = 旋量2 ⊕ 相位1。所以每个带颜色的费米子（夸克），其颜色内部结构 = 一个「自旋1/2 旋量对」+ 一个「相位单态」。这意味着：夸克的颜色三重态，内部 3 个颜色分量不是平权的——其中 2 个构成一个旋量二重态（有 SU(2) 结构），1 个是相位单态。这是 Connes 标准模型没有的（他输入 3，颜色三分量平权）。",
+    "potential_prediction": "若框架对，则「颜色三分量不是平权的，而是 2⊕1 分解」——这可能给出一个可检验的结构预言：在某种极端条件（如色禁闭破缺/高能）下，夸克的 2⊕1 颜色结构会显现（2 个分量成对，1 个分量单独）。具体可观测形式待 exp3/exp4 用 Yukawa 结构验证。"
+  },
+  "C_honest_boundary": {
+    "red_line": "只定表示结构（三代、3=2⊕1），不碰三代质量谱数值（数字巧合红线）",
+    "three_generations_status": "「为什么三代」本身是开放问题（本文不解释，只接受三代为输入）"
+  }
+}

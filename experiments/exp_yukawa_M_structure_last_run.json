@@ -1,0 +1,35 @@
+{
+  "A_one_generation": {
+    "M_shape": [
+      8,
+      7
+    ],
+    "M_blocks": {
+      "e_block": "M[1,0] = y_e (1x1)",
+      "u_block": "M[2:5,1:4] = y_u·I₃ (3x3 颜色对角)",
+      "d_block": "M[5:8,4:7] = y_d·I₃ (3x3 颜色对角)"
+    },
+    "note": "M 是 8×7，块对角，颜色部分 = y_u·I₃ / y_d·I₃（Schur 引理 ⟹ 颜色平庸）"
+  },
+  "B_color_diagonal": {
+    "u_block_is_y_u_I3": true,
+    "d_block_is_y_d_I3": true,
+    "note": "颜色块 = y·I₃（对角），印证 exp3 Schur 引理：完整 SU(3) ⟹ 三色 Yukawa 平权"
+  },
+  "C_three_generation": {
+    "M_total_shape": [
+      24,
+      21
+    ],
+    "note": "三代直和 M_total = diag(M1,M1,M1)，24×21（忽略 CKM 代间混合，那是另一层）"
+  },
+  "D_3_eq_2oplus1_view": {
+    "color_decomposition": "y_u·I₃ = y_u·(I₂ ⊕ 1)，旋量对(r,g) + 相位(b) 都耦合 y_u",
+    "note": "3=2⊕1 是分支规则（限制到 su(2) 子代数看），不改变「三色平权」这个 Schur 结论"
+  },
+  "E_conclusion": {
+    "M_complete": "一代 8×7 块结构 + 三代 24×21，完整构造完成",
+    "color_structure": "颜色块 y·I₃ 对角（Schur），3=2⊕1 不改变平权",
+    "next": "exp6 实结构 J（电荷共轭）"
+  }
+}
