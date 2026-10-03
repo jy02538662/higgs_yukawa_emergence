@@ -38,6 +38,14 @@ $$\text{手征 }\Gamma \times \text{共轭 }K \ (\mathbb Z_2\times\mathbb Z_2) \
 | `exp_CKM_structure` | 符号 | 代间混合（CKM/PMNS）= 标准结果，无框架独有约束 | 见 `_last_run.json` |
 | `exp_su3_uniqueness` | 符号+数值 | su(3) 来源唯一性：方向 1（Γ、K 独立）+ 方向 2（找第三个 Z₂）+ 方向 3 开放 | 见 `_last_run.json` |
 | `exp_a4_higgs_yukawa` | 符号 | 探底：希格斯+Yukawa = Connes 标准，无框架独有新预言 | 见 `_last_run.json` |
+| `two_z2_check` | 符号 | 两个 Z₂（断裂 + 手征/上下）是否唯一独立 → Aut(Z₂×Z₂)=S₃ | 纯 print |
+| `z2_to_su3` | 符号 | Z₂ → S₃ → A₂ → su(3) 是否自动、唯一、循环 | 纯 print |
+| `z3_s3_a2_su3` | 符号 | Z₃ + Z₂ → S₃(Weyl群) → A₂ → su(3) 唯一生成 | 纯 print |
+| `doubt_check` | 符号 | 两个 Z₂（Γ+K）是否唯一自同构 S₃；手性反转 120° | 纯 print |
+| `lambda47_auto` | 符号 | λ_4-7 是「缺的」还是「A2 系统自动生成」；3 是否 C+C² 自动 | 纯 print |
+| `realification_check` | 符号 | 实化(realification)能否给「手性反转」的 120° 形式 | 纯 print |
+| `rigor_check` | 符号 | 严格化：120° 旋转是否唯一（自动 vs 手写，3=2⊕1 结构匹配）| 纯 print |
+| `split_chirality_check` | 符号 | 断裂（二元闭合）vs 手征（bipartite）是否同一个 Z₂ | 纯 print |
 
 ## 运行
 
@@ -52,6 +60,14 @@ py -m experiments.exp_inner_fluctuation_complete
 py -m experiments.exp_CKM_structure
 py -m experiments.exp_su3_uniqueness
 py -m experiments.exp_a4_higgs_yukawa
+py -m experiments.two_z2_check
+py -m experiments.z2_to_su3
+py -m experiments.z3_s3_a2_su3
+py -m experiments.doubt_check
+py -m experiments.lambda47_auto
+py -m experiments.realification_check
+py -m experiments.rigor_check
+py -m experiments.split_chirality_check
 ```
 
 ## 最终结论（2026-09-25 探底 + 完整推导 + 留白补齐）
